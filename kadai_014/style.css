@@ -1,0 +1,43 @@
+html {
+  font-size: 20px;
+}
+
+
+body{
+  font-family: "Arial", "Meiryo", sans-serif;
+  
+}
+
+h1{
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  text-shadow: 1px 2px 3px #808080;
+  border-bottom: 3px solid rgb(115, 115, 114);
+  letter-spacing: 1.2em;
+}
+
+h1::first-letter{
+  color: skyblue;
+}
+
+span{
+  color: rgb(255, 192, 203) 
+}
+
+.container{
+  text-align:center
+}
+
+h2:nth-of-type(odd){
+  color: rgb(255, 192, 203) 
+}
+
+h2:nth-of-type(even){
+  color:skyblue;
+}
+
+#basic > p:nth-of-type(1),
+#basic > p:nth-of-type(2),
+#basic > p:nth-of-type(3) {
+    font-weight: bold;
+}
